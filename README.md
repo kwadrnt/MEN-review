@@ -121,6 +121,7 @@ Let's check out the [`tunely-angular` sprint 5 solutions branch](https://github.
 Let's investigate the pieces we just saw in the MEN version and answer the following question:
 
 * What's the difference between this version and the MEN version you explored just a moment ago?
+* If your file is not effected, which files are?
 
 
 ## Resources:
