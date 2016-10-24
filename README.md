@@ -1,4 +1,4 @@
-# <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> MEN stack review
+# <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> MEAN/MEN stack review
 
 ### Why is this important?
 <!-- framing the "why" in big-picture/real world examples -->
@@ -11,7 +11,7 @@ We haven't touched MongoDB, Express, Node, and jQuery in a long time! You may no
 *After this workshop, developers will be able to:*
 
 - Explain the role of each technology within the MEN stack.
-- Give detailed account of the purpose of the different files and folders that make up a MEN app.
+- Give detailed account of the purpose of the different files and folders that make up a MEN/MEAN app.
 
 ### Where should we be now?
 <!-- call out the skills that are prerequisites -->
@@ -41,14 +41,16 @@ than the `.erb` style templating of Rails apps.*
 Take two minutes to write down your reaction.
 
 
-## MEN
-What does MEN mean? Without using any other resources, write down what you know about each of the following:
+## MEAN
+What does MEAN mean? Without using any other resources, write down what you know about each of the following:
 
 **MongoDB**
 
 **Mongoose**
 
 **Express**
+
+**AngularJS**
 
 **Node**
 
@@ -65,6 +67,19 @@ After that time, find an example of 1-10 lines of code that illustrate the use o
 ### What is Express JS?
 - Express is a framework built on top of Node.js that makes development of web servers more intuitive and quicker.
 - Express allows us to easily set up routes that will trigger actions such as rendering pages or returning JSON.
+
+### What is AngularJS
+
+From the [Angular Guide Introduction](https://docs.angularjs.org/guide/introduction):
+
+* A "framework for dynamic web apps"
+* "Lets you use HTML as your template language" and helps you "extend HTML's syntax"
+* "Handles all of the DOM and AJAX glue code you once wrote by hand and puts it in a well-defined structure"
+* Is "opinionated about how a CRUD application should be built"
+* Comes with "Data-binding, basic templating directives, form validation, routing, deep-linking, reusable components and dependency injection"
+* "Angular simplifies application development by presenting a higher level of abstraction to the developer"
+* "Not every app is a good fit for Angular. Angular was built with the CRUD application in mind."
+
 
 ### What is Node?
 - Node.js is a webserver that operates on the V8 Google Chrome JavaScript runtime, allowing you to write server-side code in JavaScript.
