@@ -41,8 +41,8 @@ than the `.erb` style templating of Rails apps.*
 Take two minutes to write down your reaction.
 
 
-## MEAN
-What does MEAN mean? Without using any other resources, write down what you know about each of the following:
+## MEN
+What does MEN mean? Without using any other resources, write down what you know about each of the following:
 
 **MongoDB**
 
@@ -77,14 +77,14 @@ After that time, find an example of 1-10 lines of code that illustrate the use o
 
 Go to the codebase from the [original Tunely app on the `solutions_sprint_6` branch](https://github.com/sf-wdi-31/tunely/tree/31/solutions_sprint_6). You will be assigned to a file within that project from this list:
 
-`package.json`/`bower.json`
-`server.js`
-`models/*`, especially `models/index.js`
-`controllers/albumsController.js`
-`controllers/albumsSongsController.js`
-`controllers/apiController.js` and `controllers/index.js`
-`public/scripts/app.js`
-`public/styles/style.css` and `public/images/*`
+* `package.json`/`bower.json`
+* `server.js`
+* `models/*`, especially `models/index.js`
+* `controllers/albumsController.js`
+* `controllers/albumsSongsController.js`
+* `controllers/apiController.js` and `controllers/index.js`
+* `public/scripts/app.js`
+* `public/styles/style.css` and `public/images/*`
 
 
 Let's investigate these pieces and answer the following questions:
