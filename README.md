@@ -114,6 +114,13 @@ Let's investigate these pieces and answer the following questions:
 Once you've written something out, taken the key screenshots (`cmd`+`shift`+ `4`), and gathered all the info you want to show us, please put your responses on [this google doc](https://docs.google.com/document/d/19piRsY8R6wwtjD9ET9XiyCrBITvaRVuBNpWAV2jk6-U/edit). We'll each present 2-5 minutes on the piece we investigated to refresh the class on what it does.
 
 
+# `tunely-angular` app
+
+Let's check out the [`tunely-angular` sprint 5 solutions branch](https://github.com/SF-WDI-LABS/tunely-angular/blob/master/docs/sprint5.md) as a subject for contrasting MEN and MEAN stack.
+
+Let's investigate the pieces we just saw in the MEN version and answer the following question:
+
+* What's the difference between this version and the MEN version you explored just a moment ago?
 
 
 ## Resources:
