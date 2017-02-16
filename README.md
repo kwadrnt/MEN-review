@@ -56,7 +56,7 @@ What are the technologies in "MEN" stack? Without using any other resources, wri
 
 **jQuery**
 
-After that time, find an example of 1-10 lines of code that illustrate the use of this technology.
+If you finish early, add an example of 1-2 lines of code that show each technology.
 
 ### What is MongoDB/(Mongoose)?
 
