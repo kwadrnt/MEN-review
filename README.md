@@ -88,8 +88,7 @@ From the [Angular Guide Introduction](https://docs.angularjs.org/guide/introduct
 - It is fast largely because it is asynchronous, meaning code can run in parallel without "blocking" the call stack (the list of other concurrent commands).
 
 
-
-### Check for Understanding: Tune.ly Revisit
+### Investigate and Present: Tune.ly Revisit
 
 Go to the codebase from the [original Tunely app on the `solutions_sprint_6` branch](https://github.com/sf-wdi-34/tunely/tree/34/solutions-sprint-6). 
 
@@ -117,3 +116,10 @@ Investigate your file or directory and answer the following questions in [this g
 <!-- ## Resources:
 * [An intro to Mongo/Express/Node from WDI25](https://github.com/SF-WDI-LABS/shared_modules/tree/master/03-angular-mean/intro-mean/25)
 -->
+
+### Closing Thoughts
+
+1. What kind of project requirements would lead you to decide to use Rails instead of Node/Express?
+1. When would you prefer Node and Express instead of Rails?
+1. When would you use MongoDB? When would you use PostgreSQL?
+1. What are benefits of client-side templating and server-side templating?
