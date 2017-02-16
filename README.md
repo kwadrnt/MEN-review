@@ -92,7 +92,7 @@ From the [Angular Guide Introduction](https://docs.angularjs.org/guide/introduct
 
 Go to the codebase from the [original Tunely app on the `solutions_sprint_6` branch](https://github.com/sf-wdi-34/tunely/tree/34/solutions-sprint-6). 
 
-* `package.json`
+* `package.json` and `node_modules/*`
 * `server.js`
 * `models/album.js` and `models/song.js`
 * `models/index.js`
