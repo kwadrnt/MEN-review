@@ -4,7 +4,7 @@
 <!-- framing the "why" in big-picture/real world examples -->
 *This workshop is important because:*
 
-We haven't touched MongoDB, Express, Node, and jQuery in a long time! You may not remember the roles that jQuery plays or the reason why we have Express and Node working together. What is Mongoose anyway? It's going to be important to retrieve skills and use technologies that we've studied, so we're going to practice that.
+We haven't touched MongoDB, Express, and Node, or even jQuery in a long time! You may not remember the roles that jQuery plays or the reason why we have Express and Node working together. What is Mongoose anyway? It's going to be important to retrieve skills and use technologies that we've studied, so we're going to practice that.
 
 ### What are the objectives?
 <!-- specific/measurable goal for students to achieve -->
@@ -60,37 +60,45 @@ If you finish early, add an example of 1-2 lines of code that show each technolo
 
 ### What is MongoDB/(Mongoose)?
 
-* `MongoDB` is a no-SQL database.
-* Generally we will not be interacting _directly_ with MongoDB, instead we'll be working with `mongoose`.
-* `Mongoose` is a library or "wrapper" that gives us a bunch of convenience methods for working with MongoDB records (kind of like jQuery's convenience methods for manipulating the DOM).
+- `MongoDB` is a no-SQL, "document database." 
+- Generally we will not be interacting _directly_ with MongoDB, instead we'll be working with `mongoose`.
+- `Mongoose` is a library or "wrapper" that gives us a bunch of convenience methods for working with MongoDB records.
 
-### What is Express JS?
-- Express is a framework built on top of Node.js that makes development of web servers more intuitive and quicker.
-- Express allows us to easily set up routes that will trigger actions such as rendering pages or returning JSON.
+Interview question(s): 
 
-<!-- ### What is AngularJS
-
-From the [Angular Guide Introduction](https://docs.angularjs.org/guide/introduction):
-
-* A "framework for dynamic web apps"
-* "Lets you use HTML as your template language" and helps you "extend HTML's syntax"
-* "Handles all of the DOM and AJAX glue code you once wrote by hand and puts it in a well-defined structure"
-* Is "opinionated about how a CRUD application should be built"
-* Comes with "Data-binding, basic templating directives, form validation, routing, deep-linking, reusable components and dependency injection"
-* "Angular simplifies application development by presenting a higher level of abstraction to the developer"
-* "Not every app is a good fit for Angular. Angular was built with the CRUD application in mind."
--->
+- I see you've used PostgreSQL and MongoDB. What are some engineering tradeoffs when choosing between a document database and a more traditional relational database?   
 
 ### What is Node?
 - Node.js is a webserver that operates on the V8 Google Chrome JavaScript runtime, allowing you to write server-side code in JavaScript.
 - Node.js provides the ability to handle requests and issue responses.
 - It is fast.
-- It is fast largely because it is asynchronous, meaning code can run in parallel without "blocking" the call stack (the list of other concurrent commands).
+- It is fast largely because it is asynchronous and non-blocking.  In Node.js, input-output (I/O) tasks, which don't take a lot of processing time, can run in parallel.
 
+Interview question(s):
+
+- What are some pros and cons of Node.js's single-thread, event-loop approach?
+
+### What is Express JS?
+- Express is a framework built on top of Node.js that makes development of web servers faster for developers.
+- Express allows us to easily set up routes that will trigger actions such as rendering pages or returning JSON.
+- Express "wraps" Node.js features and provides middleware.
+
+Interview question(s):
+
+- Have you ever written custom middleware? If so, explain it. If not, explain an example of some middleware you found useful.
+
+### What is jQuery?
+
+- jQuery is a CLIENT-side JavaScript library.
+- It provides a standard API that works across browsers for DOM manipulation, AJAX, animation, and event handling, among other features.
+
+Interview question(s):
+
+- The team is considering whether or not to use jQuery for our next project. It has some nice features, but it is a *large* set of files. Why have you chosen to use jQuery in the past, and what are some alternatives you considered?
 
 ### Investigate and Present: Tune.ly Revisit
 
-Go to the codebase from the [original Tunely app on the `solutions_sprint_6` branch](https://github.com/sf-wdi-34/tunely/tree/34/solutions-sprint-6). 
+Go to the codebase from the [original Tunely app on the `solutions_sprint_6` branch](https://github.com/sf-wdi-37/tunely/tree/36/solutions-sprint-6). 
 
 * `package.json` and `node_modules/*`
 * `server.js`
@@ -107,19 +115,11 @@ Go to the codebase from the [original Tunely app on the `solutions_sprint_6` bra
 Investigate your file or directory and answer the following questions in [this google doc](https://docs.google.com/document/d/1I4cJe7c6PXEHi3c4H4KxGCqBphhW-WMq_jw4QW0tmwE/edit?usp=sharing). Take screenshots (`cmd`+`shift`+ `4`) of the code you'd like to highlight, and drag the image files into the google document.  We'll each present 2-5 minutes on the piece we investigated to refresh the class on what it does.
 
 1. Is this code most closely related to the server, the client, or the database?  How do you know?
-1. What is this piece of the application (file or directory) responsible for?
-1. How is this file connected to the main `server.js` file in the applciation?
-1. What 3-5 lines of code are most important for understanding how this code works?
-1. What 3-5 lines of code are difficult to understand at first glance? After a closer look, what does that code do?
-
-
-<!-- ## Resources:
-* [An intro to Mongo/Express/Node from WDI25](https://github.com/SF-WDI-LABS/shared_modules/tree/master/03-angular-mean/intro-mean/25)
--->
+2. What is this piece of the application (file or directory) responsible for?
+3. How is this file connected to the main `server.js` file in the applciation?
+4. What 3-5 lines of code are most important for understanding how this code works?
+5. What 3-5 lines of code are difficult to understand at first glance? After a closer look, what does that code do?
 
 ### Closing Thoughts
 
-1. What kind of project requirements would lead you to decide to use Rails instead of Node/Express?
-1. When would you prefer Node and Express instead of Rails?
-1. When would you use MongoDB? When would you use PostgreSQL?
-1. What are benefits of client-side templating and server-side templating?
+What kind of project requirements would lead you to decide to use Rails instead of Node/Express? When would you choose to use Node.js and Express instead of Ruby on Rails?
