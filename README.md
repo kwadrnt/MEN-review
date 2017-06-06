@@ -112,7 +112,7 @@ Go to the codebase from the [original Tunely app on the `solutions_sprint_6` bra
 * `views`
 
 
-Investigate your file or directory and answer the following questions in [this google doc](https://docs.google.com/document/d/1I4cJe7c6PXEHi3c4H4KxGCqBphhW-WMq_jw4QW0tmwE/edit?usp=sharing). Take screenshots (`cmd`+`shift`+ `4`) of the code you'd like to highlight, and drag the image files into the google document.  We'll each present 2-5 minutes on the piece we investigated to refresh the class on what it does.
+Investigate your file or directory and answer the following questions in [this google doc](https://docs.google.com/document/d/1oUZ6jpetLZSGHEOnvLM1sG3NRrP18PeSr9wbafmzHkI/edit?usp=sharing). Take screenshots (`cmd`+`shift`+ `4`) of the code you'd like to highlight, and drag the image files into the google document.  We'll each present 2-5 minutes on the piece we investigated to refresh the class on what it does.
 
 1. Is this code most closely related to the server, the client, or the database?  How do you know?
 2. What is this piece of the application (file or directory) responsible for?
